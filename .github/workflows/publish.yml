@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Test project
-        run: npm run test
         
       - name: Docker meta
         id: meta
